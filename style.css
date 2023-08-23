@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  overflow: hidden;
+  /* you can use the clip-path below it serves the same purpose as overflow: ; */
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
+  line-height: 5rem;
+}
+
+.char {
+  transform: translateY(115px);
+  transition: transform 0.5s;
+}
